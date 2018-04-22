@@ -2,168 +2,470 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+  <title>Инфо Техподдержка</title>
 </head>
 
-<body>
+<body class="page">
+  <header class="page__header">
+    <div class="page__header__logo">
+      <div class="logo">
+        <a href="#">
+          <img src="images/logo.png" alt="" class="logo__img">
+        </a>
+      </div>
+    </div>
+    <div class="page__header__menu menu">
+      <a href="#" class="link link_menu light-blue">Услуги</a>
+      <a href="#" class="link link_menu light-blue">Цены</a>
+      <a href="#" class="link link_menu light-blue">Порядок работы</a>
+      <a href="#" class="link link_menu light-blue">Команда</a>
+      <a href="#" class="link link_menu light-blue">Ответы на вопросы</a>
+    </div>
+    <div class="page__header__buttons">
+      <button class="button button_menu">Вход для клиентов</button>
+      <button class="button button_menu button-red">8 800 743-83-79</button>
+    </div>
 
-    <header class="header">
-        <div class="header__top">
-            <div class="wrap">
-                <div class="logo">
-                    <img src="images/logo.png" alt="">
+  </header>
+
+  <section class="page__slider">
+    <div class="slider-header">
+      <div class="slider-title title white">
+        Техническая поддержка сайтов на 1С-Битрикс
+      </div>
+      <div class="slider-subtitle title white title-low">
+        Наша задача - Высокая конверсия ваших сайтов
+      </div>
+    </div>
+    <div class="slider-main">
+      <img src="images/slider-img.png" alt="" class="slider-img">
+    </div>
+    <div class="slider-menu">
+      <div class="menu">
+        <div class="link_menu link-container">
+          <i class="fas fa-desktop font-icon font-icon-white"></i>
+          <span class="title title-low white text">Программирование</span>
+        </div>
+        <div class="link_menu link-container">
+          <i class="fas fa-pencil-alt font-icon font-icon-white"></i>
+          <span class="title title-low white text">Дизайн</span>
+        </div>
+        <div class="link_menu link-container">
+          <i class="far fa-file-alt font-icon font-icon-white"></i>
+          <span class="title title-low white text">Наполнение сайтов</span>
+        </div>
+        <div class="link_menu link-container">
+          <i class="fas fa-lock font-icon font-icon-white"></i>
+          <span class="title title-low white text">Защита</span>
+        </div>
+        <div class="link_menu link-container">
+          <i class="fas fa-battery-full font-icon font-icon-white"></i>
+          <span class="title title-low white text">Обеспечение </span>
+          <span class="title title-low white text">бесперебойной работы</span>
+        </div>
+      </div>
+    </div>
+    <div class="slider__button">
+      <button class="button button-red button-xl">Присоединиться к успеху</button>
+    </div>
+  </section>
+
+  <section class="page__services">
+    <div class="container-s">
+      <div class="container-s">
+        <div class="services-title title-container">
+          <span class="title title-big white ">Мы выполняем</span>
+          <span class="title title-big white">И обеспечиваем</span>
+        </div>
+      </div>
+
+      <div class="services-menu">
+        <div class="menu menu-around">
+          <div class="link-menu link-container ">
+            <i class="far fa-clock font-icon font-icon-xl blue icon-xl"></i>
+            <span class="xl-size  dotted white bold">Разовые работы</span>
+          </div>
+          <div class="link-menu link-container">
+            <i class="fas fa-window-restore font-icon  font-icon-xl blue icon-xl"></i>
+            <span class="xl-size dotted white bold">Системное </span>
+            <span class="xl-size dotted white bold">Администрирование</span>
+          </div>
+          <div class="link-menu link-container">
+            <i class="far fa-file-alt font-icon font-icon-xl blue icon-xl"></i>
+            <span class="xl-size dotted white bold">Контент</span>
+            <span class="xl-size dotted white bold">Менеджмент</span>
+
+          </div>
+          <div class="link-menu link-container">
+            <i class="fas fa-code-branch font-icon font-icon-xl blue icon-xl"></i>
+            <span class="xl-size dotted white bold">Поступательное</span>
+            <span class="xl-size dotted white bold">Движение проекта</span>
+            <span class="xl-size dotted white bold">вверх</span>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="services-description">
+        <div class="menu menu-around">
+          <div class="services-item menu menu-vert">
+            <div class="triangle"></div>
+            <div class="link-menu link-container link-container-between container-bg-white">
+              <span class="l-size text-grey text-center services-desc-head">
+                Здесь и сейчас!
+              </span>
+              <div class="menu menu-vert menu-fs">
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Устраняем срочные проблемы</span>
                 </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Удаляем вирусы</span>
+                </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Реализуем доработки сайта</span>
+                </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Настраиваем сервер</span>
+                </div>
+              </div>
+              <span class="l-size text-grey text-center container-bg-red white">
+                *Можно заказать безотлагательное выполнение работ
+              </span>
+
             </div>
+          </div>
+
+          <div class="services-item menu menu-vert">
+            <div class="triangle"></div>
+            <div class="link-menu link-container link-container-around container-bg-white">
+              <span class="l-size text-grey text-center ">
+                Обеспечиваем на постоянной основе бесперебойную работу сайта
+              </span>
+              <div class="menu menu-vert menu-fs">
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Круглосуточный мониторинг</span>
+                </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Резервное копирование</span>
+                </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Восстановление данных</span>
+                </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Настройка программного обеспечения сервера</span>
+                </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Контроль и планирование нагрузки</span>
+                </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Журналирование действий с сайтом</span>
+                  <div class="link-menu">
+                    <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                    <span class="l-size grey">Предотвращение и самостоятельное устранение проблем</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="services-item menu menu-vert">
+            <div class="triangle"></div>
+            <div class="link-menu link-container link-container-between container-bg-white ">
+              <div class="menu menu-vert menu-fs">
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Наполнение сайта информацией</span>
+                </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Размещение материалов, товаров</span>
+                </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Написание текстов</span>
+                </div>
+                <div class="link-menu">
+                  <i class="fas fa-long-arrow-alt-right blue l-size"></i>
+                  <span class="l-size grey">Подготовка графики</span>
+                </div>
+              </div>
+              <span class="xl-size text-grey text-center container-bg-red white bold ">
+                600 руб.\час Мин. объем - 4 часа
+              </span>
+
+
+            </div>
+          </div>
+
+          <div class="services-item menu menu-vert">
+            <div class="triangle"></div>
+            <div class="link-menu link-container link-container-around container-bg-white">
+              <span class=" l-size text-grey text-center">
+                Предлагаем набор сбалансированных тарифов, которые в комплексе обеспечивают работу и развитие сайта
+              </span>
+            </div>
+          </div>
 
         </div>
-        <div class="header__medium">
-            <div class="header__medium__links">
-                <ul class="header__medium__links__list">
-                    <li class="header__medium__links__list__item">
-                        <a href="#">Услуги</a>
-                    </li>
-                    <li class="header__medium__links__list__item">
-                        <a href="#">Цены</a>
-                    </li>
-                    <li class="header__medium__links__list__item">
-                        <a href="#">Порядок работы</a>
-                    </li>
-                    <li class="header__medium__links__list__item">
-                        <a href="#">Команда</a>
-                    </li>
-                    <li class="header__medium__links__list__item">
-                        <a href="#">Ответы на вопросы</a>
-                    </li>
-                </ul>
+      </div>
+    </div>
 
-            </div>
+  </section>
+
+  <section class="page__competence">
+
+  </section>
+
+  <section class="page__advantages">
+
+  </section>
+
+  <section class="page__tariff-head">
+
+  </section>
+
+  <section class="page__tariff-main">
+
+  </section>
+
+  <section class="page__work-order">
+
+  </section>
+
+  <section class="page__prices">
+
+  </section>
+
+  <section class="page__customs">
+    <div class="container">
+      <div class="customs-title title-container">
+        <span class="title title-big white">Что нам часто</span>
+        <span class="title title-big white">Приходится делать</span>
+      </div>
+    </div>
+
+    <div class="customs-list">
+      <div class="container">
+        <div class="customs-item menu menu-around">
+          <div class="link-menu link-container flex">
+            <i class="far fa-image font-icon font-icon-l grey shadow"></i>
+            <span class="title text white medium">Нарисовать и разместить рекламный баннер на сайте</span>
+          </div>
+          <div class="link-menu link-container flex">
+            <i class="far fa-image font-icon font-icon-l grey shadow"></i>
+            <span class="title text white medium">Ускорение работы сайта.</span>
+            <span class="title text white medium">Решаем проблемы</span>
+            <span class="title text white medium">быстродействия страниц</span>
+          </div>
+          <div class="link-menu link-container flex">
+            <i class="fas fa-tv font-icon font-icon-l grey shadow"></i>
+            <span class="title text white medium">Интеграция каталога</span>
+            <span class="title text white medium">товаров с 1С</span>
+
+          </div>
+          <div class="link-menu link-container flex">
+            <i class="far fa-compass font-icon font-icon-l grey shadow"></i>
+            <span class="title text white medium">Добавить распознавание региона</span>
+            <span class="title text white medium">посетителя регионозависимость,</span>
+            <span class="title text white medium"> геозависимость на сайте</span>
+
+          </div>
+          <div class="link-menu link-container flex">
+            <i class="far fa-sun font-icon font-icon-l grey shadow"></i>
+            <span class="title text white medium">Настроить</span>
+            <span class="title text white medium">человеко-понятные</span>
+            <span class="title text white medium">адреса страниц сайта</span>
+
+          </div>
         </div>
-        <div class="header__low">
-            <ul class="header__low__list">
-                <li class="header__low__list__item">
-                    <a href="#">Вход для клиентов</a>
-                </li>
-                <li class="header__low__list__item ">
-                    <a class="button button--telephone" href="#">8 800 743-83-79</a>
-                </li>
-            </ul>
+        <div class="customs-item menu menu-around">
+          <div class="link-menu link-container flex">
+            <i class="far fa-compass font-icon font-icon-l grey shadow"></i>
+            <span class="title text white medium">Нарисовать и разместить</span>
+            <span class="title text white medium">рекламный баннер на сайте</span>
+
+          </div>
+          <div class="link-menu link-container flex">
+            <i class="far fa-sun font-icon font-icon-l grey shadow"></i>
+            <span class="title text white medium dotted">Сделать сайт адаптивным</span>
+            <span class="title text white light">При клике выезжает текст,</span>
+            <span class="title text white light">поясняющий/раскрывающий</span>
+            <span class="title text white light">выбранный пункт</span>
 
 
+          </div>
+          <div class="link-menu link-container flex">
+            <i class="far fa-window-maximize font-icon font-icon-l grey shadow"></i>
+            <span class="title text white medium">Интеграция каталога </span>
+            <span class="title text white medium">товаров с 1С</span>
+
+          </div>
+          <div class="link-menu link-container flex">
+            <i class="far fa-image font-icon font-icon-l grey shadow"></i>
+            <span class="title text white medium">Добавить распознавание региона</span>
+            <span class="title text white medium">посетителя регионозависимость,</span>
+            <span class="title text white medium">геозависимость на сайте</span>
+
+          </div>
+          <div class="link-menu link-container flex">
+            <i class="fas fa-tv font-icon font-icon-l grey shadow"></i>
+            <span class="title text white medium">Настроить </span>
+            <span class="title text white medium">человеко-понятные</span>
+            <span class="title text white medium">адреса страниц сайта</span>
+          </div>
         </div>
+      </div>
+    </div>
+    <div class="customs-more">
+      <div class="center-area">
+        <button class="button button-round button-white green upper button-m">Больше</button>
+      </div>
+    </div>
+  </section>
 
-    </header>
+  <section class="page__team">
+    <div class="container">
+      <div class="team-title title-container title-container-green">
+        <span class="title title-big green">Наша</span>
+        <span class="title title-big green">Команда</span>
+      </div>
+    </div>
+    <div class="team-members">
+      <div class="container">
+        <div class="menu menu-between">
+          <div class="link-menu link-container">
+            <img src="images/team1.png" alt="">
+            <span class="text bold-fat text-s grey">Аркадий</span>
+            <span class="text bold-fat text-s medium-blue">Гений PHP</span>
+            <span class="text light grey italic">5 лет опыта</span>
+          </div>
+          <div class="link-menu link-container">
+            <img src="images/team2.png" alt="">
+            <span class="text bold-fat text-s grey">Сергей</span>
+            <span class="text bold-fat text-s medium-blue">Знает как помочь</span>
+            <span class="text light grey italic">Эксперт-консультант</span>
+          </div>
+          <div class="link-menu link-container">
+            <img src="images/team3.png" alt="">
+            <span class="text bold-fat text-s grey">Николай</span>
+            <span class="text bold-fat text-s medium-blue">Bitrix-гуру</span>
+            <span class="text light grey italic">7 лет опыта</span>
+          </div>
+          <div class="link-menu link-container">
+            <img src="images/team4.png" alt="">
+            <span class="text bold-fat text-s grey">Петр</span>
+            <span class="text bold-fat text-s medium-blue">Решает проблемы</span>
+            <span class="text light grey italic">Bitrix-эксперт</span>
+          </div>
+          <div class="link-menu link-container">
+            <img src="images/team5.png" alt="">
+            <span class="text bold-fat text-s grey">Алена</span>
+            <span class="text bold-fat text-s medium-blue">Умеет убеждать</span>
+            <span class="text light grey italic">Вам помощник</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <main class="main">
-        <div class="main-top">
-            <div class="main-top__title">
-                <span>Техническая поддержка сайтов на 1С-Битрикс</span>Наша зачада - высокая конверсия ваших сайтов
-            </div>
-            <div class="main-top__img">
-                <img src="images/main-top-img.png" alt="">
-            </div>
+  <section class="page__question">
+    <div class="menu-vert">
+      <div class="container">
+        <div class="question-title title-container">
+          <span class="title title-big white">Ответы на наиболее часто</span>
+          <span class="title title-big white">Задаваемые вопросы</span>
+        </div>
+      </div>
+      <div class="question-container menu menu-vert">
+        <div class="container">
+          <div class="link-menu question-item link-container">
             <div>
-                <ul class="main-top__list">
-                    <li class="main-top__list__item" href="#">
-                        <img src="images/main-top-icon1.png" alt=""> Программирование
-                    </li>
-                    <li class="main-top__list__item" href="#">
-                        <img src="images/main-top-icon2.png" alt=""> Дизайн
-                    </li>
-                    <li class="main-top__list__item" href="#">
-                        <img src="images/main-top-icon3.png" alt=""> Защита
-                    </li>
-                    <li class="main-top__list__item" href="#">
-                        <img src="images/main-top-icon4.png" alt=""> Наполнение сайтов
-                    </li>
-                    <li class="main-top__list__item" href="#">
-                        <img src="images/main-top-icon5.png" alt=""> Обеспечение
-                        <span>бесперебойной работы</span>
-                    </li>
-                </ul>
+              <i class="fas fa-long-arrow-alt-right white text-xl"></i>
+              <span class="title text-l dotted white">Разумеется, при заказе создания и продвижения web сайтов в вашей компании, впечатляющие результаты не заставят
+                себя долго ждать
+              </span>
+
             </div>
-            <div class="main-top__button">
-                <button class="button">Присоединиться к успеху</button>
+          </div>
+          <div class="link-menu question-item link-container">
+            <div>
+              <i class="fas fa-long-arrow-alt-right white text-xl"></i>
+              <span class="title text-l dotted white">Разумеется, при заказе создания и продвижения web сайтов в вашей компании, впечателяющие результаты не заставят
+                себя долго ждать
+              </span>
+
             </div>
+          </div>
+          <div class="link-menu question-item link-container">
+            <div>
+              <i class="fas fa-long-arrow-alt-right white text-xl"></i>
+              <span class="title text-l dotted white">Разумеется, при заказе создания и продвижения web сайтов в вашей компании, впечателяющие результаты не заставят
+                себя долго ждать
+              </span>
+
+            </div>
+          </div>
+          <div class="link-menu question-item link-container">
+            <div>
+              <i class="fas fa-long-arrow-alt-right white text-xl"></i>
+              <span class="title text-l dotted  white">Разумеется, при заказе создания и продвижения web сайтов в вашей компании впечателяющие результаты не заставят
+                себя долго ждать
+              </span>
+            </div>
+            <div class="text-container">
+              <span class="title text-s grey .thin text-content">К сожалению, мы не можем сообщить ее по телефону или в письме. Для оценки бюджета необходимо встретиться, познакомиться
+                и ответить на все ваши вопросы. Если у вас есть документ с требованиями и мы сможем его предварительно изучить,
+                то встреча пройдет продуктивно и быстро. Иногда бывает достаточно 20 минут.</span>
+            </div>
+          </div>
+          <div class="link-menu question-item link-container">
+            <div>
+              <i class="fas fa-long-arrow-alt-right white text-xl"></i>
+              <span class="title text-l .dotted white">Разумеется, при заказе создания и продвижения web сайтов в вашей компании впечателяющие результаты не заставят
+                себя долго ждать
+              </span>
+
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="main-services">
-            <div class="container">
-                <div class="main-services__top">
-                    <div class="main-services__top__title">
-                        Мы выполняем
-                        <span>и обеспечиваем</span>
-                    </div>
-                    <div class="main-services__icons">
-                        <ul>
-                            <li class="main-services__icons__item">
-                                <img src="images/main-services-icon1.png" alt="">Разовые работы
-                            </li>
-                            <li class="main-services__icons__item">
-                                <img src="images/main-services-icon2.png" alt="">Системное
-                                <span>администрирование</span>
+  <section class="page__contacts">
+    <div class="center-area">
+      <span class="title title-xl black">Остались вопросы?</span>
+      <div class="link-container link-container-row ">
+        <span class="title title-l red">8 910 743 83 79</span>
+        <button class="button button-red button-xl l-size">Связаться с нами</button>
+      </div>
+    </div>
+  </section>
 
-                            </li>
-                            <li class="main-services__icons__item">
-                                <img src="images/main-services-icon3.png" alt="">Контент
-                                <span>менеджмент</span>
-
-                            </li>
-                            <li class="main-services__icons__item">
-                                <img src="images/main-services-icon4.png" alt="">Поступательное
-                                <span>движение</span> проекта вверх
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="main-services__flags">
-                        <ul>
-                            <li class="main-services__flags__item">
-                                <ul>
-                                    <li><img src="images/main-services-marker.png" alt=""> Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                </ul>
-                            </li>
-                            <li class="main-services__flags__item">
-                                <ul>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                </ul>
-
-                            </li>
-                            <li class="main-services__flags__item">
-                                <ul>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                </ul>
-
-                            </li>
-                            <li class="main-services__flags__item">
-                                <ul>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                    <li><img src="images/main-services-marker.png" alt="">Удаляем вирусы</li>
-                                </ul>
-
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
+  <section class="page__footer">
+    <div class="center-area">
+      <span class="text light-grey">© 2015 | Info-proekt</span>
+    </div>
+  </section>
 </body>
 
 </html>
