@@ -65,6 +65,14 @@ $xl-size: 4.8rem;
   text-align: center;
 }
 
+.center {
+  align-items: center;
+}
+
+.start {
+  align-items: flex-start;
+}
+
 .italic {
   font-style: italic;
 }
@@ -75,6 +83,14 @@ $xl-size: 4.8rem;
 
 .xl-size {
   font-size: 1.2rem;
+}
+
+.xxl-size {
+  font-size: 1.8rem;
+}
+
+.xxxl-size {
+  font-size: 5rem;
 }
 
 .flex {
@@ -283,7 +299,6 @@ $xl-size: 4.8rem;
 .link-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .link-container-row {
@@ -304,7 +319,7 @@ $xl-size: 4.8rem;
 
 .page__services {
   /* margin: 0 8rem; */
-  background: #2f2d95;
+  background: url('../images/services-bg.jpg') no-repeat center bottom / cover;
   margin-top: 100px;
   height: 1000px;
   display: flex;
@@ -318,6 +333,43 @@ $xl-size: 4.8rem;
 .page__services .services-title {
   margin: 4rem 0;
 }
+
+.page__competence {
+  margin-top: 50px;
+  height: 600px;
+}
+
+.page__competence .competence-item {
+  margin: 2.5rem 0;
+}
+
+.page__competence .competence-item .link-menu {
+  margin: 0 1rem;
+}
+
+.page__competence .competence-item .center {
+  margin: 1rem;
+}
+
+.page__competence .competence-item .center i {
+  margin: 0 1rem;
+}
+
+.page__advantages {
+  display: flex;
+  height: 700px;
+  background: url('../images/advantages_bg.jpg') no-repeat center bottom / cover;
+}
+
+.advantages-item {
+  margin: 3rem 0;
+  line-height: 1.1;
+}
+
+.advantages-item-text {
+  margin: 0 2rem;
+}
+
 
 .title-container {
   margin-top: 4rem;
@@ -334,7 +386,7 @@ $xl-size: 4.8rem;
 }
 
 .title-container-blue {
-  border-left: 1px solid #2c236f;
+  border-left: 10px solid #2c236f;
 }
 
 .dotted {
@@ -349,7 +401,7 @@ $xl-size: 4.8rem;
 .container-bg-white {
   width: 220px;
   background: white;
-  height: 430px;
+  height: 450px;
 }
 
 .container-bg-red {
@@ -383,6 +435,7 @@ $xl-size: 4.8rem;
 }
 
 .page__customs {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   min-height: 600px;
@@ -398,7 +451,7 @@ $xl-size: 4.8rem;
 }
 
 .page__customs .customs-more {
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 
 .page__team {
