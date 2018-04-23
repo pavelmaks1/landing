@@ -35,6 +35,10 @@ $xl-size: 4.8rem;
   color: #38bcfc;
 }
 
+.dark-blue {
+  color: #2c236f;
+}
+
 .red {
   color: red;
 }
@@ -56,6 +60,7 @@ $xl-size: 4.8rem;
 }
 
 /*  */
+
 .text-center {
   text-align: center;
 }
@@ -326,6 +331,10 @@ $xl-size: 4.8rem;
 
 .title-container-green {
   border-left: 10px solid #3eb66c;
+}
+
+.title-container-blue {
+  border-left: 1px solid #2c236f;
 }
 
 .dotted {
