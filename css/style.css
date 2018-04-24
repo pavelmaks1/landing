@@ -69,6 +69,18 @@ $xl-size: 4.8rem;
   background: #1fbaeb;
 }
 
+.light-white-bg {
+  background: #e7ebec;
+}
+
+.white-bg {
+  background: white;
+}
+
+.light-green-bg {
+  background: #9ec812;
+}
+
 .text-center {
   text-align: center;
 }
@@ -168,6 +180,8 @@ $xl-size: 4.8rem;
   align-items: center;
 }
 
+
+
 .menu-between {
   justify-content: space-between;
 }
@@ -231,6 +245,10 @@ $xl-size: 4.8rem;
 
 .button-xl {
   padding: 0.8rem 1.6rem;
+}
+
+.button-l {
+  padding: 0.4rem 2.4rem;
 }
 
 .button-m {
@@ -298,6 +316,10 @@ $xl-size: 4.8rem;
   font-size: 1.8rem;
 }
 
+.text-m {
+  font-size: 1.4rem;
+}
+
 .text-xxl {
   font-size: 2.4rem;
 }
@@ -312,6 +334,18 @@ $xl-size: 4.8rem;
   background: #00b8d7;
   border-radius: 100%;
   padding: 1.2rem;
+}
+
+.font-icon-green {
+  background: #aad41e;
+  border-radius: 100%;
+  padding: 1.2rem;
+}
+
+.font-icon-grey {
+  background: #c5c8c9;
+  border-radius: 100%;
+  padding: 1.2rem 1.3rem;
 }
 
 .font-icon-xl {
@@ -426,18 +460,75 @@ $xl-size: 4.8rem;
   margin: 0.5rem 0;
 }
 
+.button-container {
+  position: relative;
+}
+
+.tariff-button {
+  position: absolute;
+  top: 60%;
+  left: 28%;
+  margin: 2rem 0 0 0;
+}
+
 .page__tariff-main {
-  height: 500px;
+  height: 1000px;
 }
 
 .page__tariff-main .tariff-main-title2 {
   margin-left: 2rem;
 }
 
-.table {
+.tariff-table {
   margin-top: 50px;
-  border: 1px solid black;
   width: 100%;
+}
+
+.tariff-table-pad-large {
+  padding: 3rem 1.5rem;
+}
+
+.tariff-table-pad-medium {
+  padding: 1.5rem;
+}
+
+.bordered {
+  border: 2px solid #e7ebec;
+}
+
+.bordered-null {
+  border: none;
+}
+
+.top-bottom-bordered {
+  border-top: 2px solid #e7ebec;
+  border-bottom: 2px solid #e7ebec;
+}
+
+.top-bottom-right-bordered {
+  border-top: 2px solid #e7ebec;
+  border-bottom: 2px solid #e7ebec;
+  border-right: 2px solid #e7ebec;
+}
+
+.top-bottom-left-bordered {
+  border-top: 2px solid #e7ebec;
+  border-bottom: 2px solid #e7ebec;
+  border-left: 2px solid #e7ebec;
+}
+
+.bottom-bordered {
+  border-bottom: 2px solid #e7ebec;
+}
+
+.bottom-left-bordered {
+  border-bottom: 2px solid #e7ebec;
+  border-left: 2px solid #e7ebec;
+}
+
+.bottom-right-bordered {
+  border-bottom: 2px solid #e7ebec;
+  border-right: 2px solid #e7ebec;
 }
 
 .title-container {
@@ -480,6 +571,11 @@ $xl-size: 4.8rem;
   text-shadow: 5px 5px 3px rgba(19, 18, 18, 0.5);
 }
 
+.underline {
+
+  border-bottom: 4px solid white;
+}
+
 .container-bg-white {
   width: 220px;
   background: white;
@@ -515,6 +611,110 @@ $xl-size: 4.8rem;
 .center-area span {
   flex: 1;
 }
+
+.page__work-order {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  height: 900px;
+  background: url('../images/work-order-bg.jpg') no-repeat center bottom / cover;
+}
+
+.work-order-info {
+  margin: 7rem 0 0 6rem;
+}
+
+.work-order-info-item {
+  margin: 2rem 0 0 2rem;
+}
+
+.work-order-info-item  i {
+  margin: 0 1rem;
+}
+
+.page__prices {
+  margin-top: 50px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.prices-table {
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 4%;
+}
+
+.bottom-right-bordered-blue {
+  border-bottom: 3px solid #274b96;
+  border-right: 3px solid #274b96;
+}
+
+.bordered-blue {
+  border: 3px solid #274b96;
+}
+
+.bottom-top-right-bordered-blue {
+  border-bottom: 3px solid #274b96;
+  border-top: 3px solid #274b96;
+  border-right: 3px solid #274b96;
+}
+
+.left-right-bordered-blue {
+  border-left: 3px solid #274b96;
+  border-right: 3px solid #274b96;
+}
+
+.bottom-left-right-bordered-blue {
+  border-left: 3px solid #274b96;
+  border-right: 3px solid #274b96;
+  border-bottom: 3px solid #274b96;
+}
+
+.bottom-top-left-right-bordered-blue {
+  border-radius: 4%;
+  border-left: 3px solid #274b96;
+  border-right: 3px solid #274b96;
+  border-top: 3px solid #274b96;
+}
+
+.bottom-bordered-blue {
+  border-bottom: 3px solid #274b96;
+}
+
+.top-right-bordered-blue {
+  border-top: 3px solid #274b96;
+  border-right: 3px solid #274b96;
+}
+
+.prices-bg-blue {
+  background: #274b96;
+}
+
+.prices-bg-bright-blue {
+  background: #29a7de;
+}
+
+.prices-table-pad-medium {
+  padding: 0.7rem 1rem;
+}
+
+.prices-table-pad-large {
+  padding: 1rem ;
+}
+
+.prices-table-pad-small {
+  padding: 0.7rem 3rem;
+}
+
+/* 
+.tariff-table-pad-large {
+  padding: 3rem 1.5rem;
+}
+
+.tariff-table-pad-medium {
+  padding: 1.5rem;
+} */
 
 .page__customs {
   margin-top: 50px;
